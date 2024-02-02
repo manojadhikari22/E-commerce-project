@@ -1,0 +1,61 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    display: flex;
+    padding: 4rem;
+}
+
+.sideMenu {
+    flex-basis: 25%;
+}
+.search {
+    padding: 10px;
+    width: 200px;
+    border: 1px solid gray;
+}
+h1 {
+    font-size: 2rem;
+    color: #555;
+    font-weight: 300;
+}
+.cat {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+
+.content {
+    flex-basis: 75%;
+}
+.products{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.product{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+img {
+    width: 150px;
+    height: 200px;
+    object-fit: contain;
+}
+.name{
+    font-weight: 300;
+}
+
+.category {
+    cursor: pointer;
+}
